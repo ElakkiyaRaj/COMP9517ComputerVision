@@ -6,7 +6,7 @@ from skimage.feature import peak_local_max
 import imutils
 
 sequence = cv2.VideoCapture('Fluo-N2DL-HeLa/Sequence 1/t%3d.tif')
-size = (19, 19)
+size = (29,29)
 shape = cv2.MORPH_RECT
 kernel = cv2.getStructuringElement(shape, size)
 
